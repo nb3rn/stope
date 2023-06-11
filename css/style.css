@@ -27,11 +27,11 @@
     font-size:18px;
     position:relative;
     top:-5px;
-    left:5px;
+    left:2px;
 }
 #date {
     letter-spacing:3px;
     font-size:10px;
     font-family:arial,sans-serif;
-    color:#fff;
+    color:#03dac6;
 }

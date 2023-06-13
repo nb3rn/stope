@@ -1,0 +1,16 @@
+.cssanimation {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  display: inline-block;
+}
+
+/* zoomInLeft animation declaration & iteration counting */
+.zoomInLeft { animation-name: zoomInLeft }
+
+/* zoomInLeft animation keyframes */
+@keyframes zoomInLeft {
+    from {
+        transform: scale(10) translateX(-50%);
+        opacity: 0;
+    }
+}

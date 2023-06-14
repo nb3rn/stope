@@ -18,9 +18,9 @@
   }
 }
 .animated {
-  animation-duration: 30s;
+  animation-duration: 28s;
   animation-fill-mode: both;
-  -webkit-animation-duration: 30s;
+  -webkit-animation-duration: 28s;
   -webkit-animation-fill-mode: both;
 }
 

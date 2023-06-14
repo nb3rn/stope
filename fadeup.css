@@ -1,7 +1,7 @@
 /* Animation */
 @keyframes fadeInUp {
   from {
-    transform: translate3d(0, 60px, 0);
+    transform: translate3d(0, 80px, 0);
   }
   to {
     transform: translate3d(0, 0, 0);
@@ -10,7 +10,7 @@
 }
 @-webkit-keyframes fadeInUp {
   from {
-    transform: translate3d(0, 60px, 0);
+    transform: translate3d(0, 80px, 0);
   }
   to {
     transform: translate3d(0, 0, 0);
@@ -18,9 +18,9 @@
   }
 }
 .animated {
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-fill-mode: both;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 20s;
   -webkit-animation-fill-mode: both;
 }
 

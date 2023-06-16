@@ -10,7 +10,7 @@
 /* zoomInLeft animation keyframes */
 @keyframes zoomInLeft {
     from {
-        transform: scale(10) translateX(-60%);
+        transform: scale(10) translateX(-10%);
         opacity: 0;
     }
 }

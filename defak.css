@@ -1,5 +1,5 @@
 .cssanimation {
-  animation-duration: 15s;
+  animation-duration: 16s;
   animation-fill-mode: both;
   display: inline-block;
 }
@@ -10,7 +10,7 @@
 /* zoomInLeft animation keyframes */
 @keyframes zoomInLeft {
     from {
-        transform: scale(10) translateX(-50%);
+        transform: scale(10) translateX(-60%);
         opacity: 0;
     }
 }

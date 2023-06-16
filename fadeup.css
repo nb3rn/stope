@@ -1,7 +1,7 @@
 /* Animation */
 @keyframes fadeInUp {
   from {
-    transform: translate3d(0, 160px, 0);
+    transform: translate3d(0, 90px, 0);
   }
   to {
     transform: translate3d(0, 0, 0);
@@ -10,7 +10,7 @@
 }
 @-webkit-keyframes fadeInUp {
   from {
-    transform: translate3d(0, 160px, 0);
+    transform: translate3d(0, 90px, 0);
   }
   to {
     transform: translate3d(0, 0, 0);

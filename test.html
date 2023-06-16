@@ -1,25 +1,35 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>Test</title>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script type="text/javascript">
-  $(function() {
-    if (window["WebSocket"]) {
-      conn = new WebSocket("ws://{{$}}/listen");
-        conn.onclose = function(evt) {
-          console.log("Connection closed.");
-        }
-        conn.onmessage = function(evt) {
-          console.log(evt);
-        }
-    }
-  });
-</script>
+    <meta charset="utf-8" />
+    <title>Animated counter</title>
+    <script src="lib/es5-shim.min.js"></script>
+    <script src="../animounter.js"></script>
 </head>
 <body>
-  <h1>Open Console</h1>
+Click document to change counter.
+
+<div id="counter" style="font-size: 40px; font-family: arial; text-align: center; margin: 10%">0</div>
+
+<script>
+    function rand(min, max) {
+        return Math.floor((max - min + 1) * Math.random() + min);
+    }
+
+    window.onload = function () {
+        var counterElement = document.getElementById("counter");
+
+        var counter = new Animounter(counterElement, {
+            value: 100,
+            duration: 550
+        });
+
+        counter.render();
+
+        document.onclick = function () {
+            counter.change(rand(0, 100));
+        };
+    };
+</script>
 </body>
 </html>
-

@@ -1,14 +1,14 @@
 .fade-in {
-  animation: fadeIn ease 17s;
-  -webkit-animation: fadeIn ease 17s;
-  -moz-animation: fadeIn ease 17s;
-  -o-animation: fadeIn ease 17s;
-  -ms-animation: fadeIn ease 17s;
+  animation: fadeIn ease 18s;
+  -webkit-animation: fadeIn ease 18s;
+  -moz-animation: fadeIn ease 18s;
+  -o-animation: fadeIn ease 18s;
+  -ms-animation: fadeIn ease 18s;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
   95% {opacity:0;}
-  100% {opacity:1;}
+  100% {opacity:2;}
 }
 
 @-moz-keyframes fadeIn {

@@ -30,7 +30,7 @@ class NavigationPage {
   constructor() {
     this.currentId = null;
     this.currentTab = null;
-    this.tabContainerHeight = 100;
+    this.tabContainerHeight = 70;
     this.lastScroll = 0;
     let self = this;
     $(".nav-tab").click(function () {
